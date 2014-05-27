@@ -1,0 +1,27 @@
+{
+  "name": "goalProgress.js",
+  "description": "Animated progress bar using jQuery to show how close you are to reaching your goal.",
+  "main": [
+    "goalProgress.js",
+    "goalProgress.css"
+  ],
+  "ignore": [
+    "index.html",
+    "readme.md",
+    "screenshot.png"
+  ],
+  "dependencies": {
+    "jquery": ">=1.10.1"
+  },
+  "homepage": "https://github.com/tinacious/goalProgress",
+  "_release": "d91e89dc7a",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "d91e89dc7a1a15dd1ff9a235f9a6fdab37114a29"
+  },
+  "_source": "git://github.com/tinacious/goalProgress.git",
+  "_target": "*",
+  "_originalSource": "goalProgress",
+  "_direct": true
+}
