@@ -1,6 +1,64 @@
 // Place all the styles related to the home controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+$content-width: 400px;
+$half-content-width: $content-width/2;
+
 body {
   background: url("stardust.png");
+}
+
+.biography { 
+  width: 100%;
+  margin: 15px;
+  padding: 15px;
+}
+
+.biography .inner {
+  padding: 25px;
+  background: white;
+  text-align: center;
+}
+
+.biography .inner p:last-child {
+  margin-bottom: 0em;
+}
+
+
+.div-center {
+  margin: 0 auto;
+}
+
+.wrapper {
+  width: 500px;
+  padding: 0px;
+  margin: 0px auto;
+}
+
+.wrapper table {
+  display: table;
+  padding: 25px;
+}
+
+.wrapper table th {
+  width: $half-content-width;
+}
+
+.round-corners {
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  border-radius: 15px;
+}
+
+.meter {
+  text-align: center;
+  color: white;
+  padding-top: 0.19em;   /* change this if the text is not vertically centered */
+}
+
+.progress {
+  border: 0px;
+  padding: 0px;
+  background: #c3c3c3;
 }
