@@ -1,3 +1,5 @@
 == README
 
 My Personal Portfolio displaying the languages I understand.
+
+To see it in production, please visit stephenchang.herokuapp.com 
