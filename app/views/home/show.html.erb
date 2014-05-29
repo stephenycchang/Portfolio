@@ -12,6 +12,11 @@
 
   <div class="biography radius div-center">
     <div class="inner round-corners">
+      <div>
+        <input type="text" ng-model="yourName" placeholder="Please enter your name here to better address you!"
+        <hr>
+        <h1>Hello {{yourName}}!</h1>
+      </div>
       <p class="text-center">Allow me to introduce myself.</p>
       <p class="text-center">I'm a web developer based in downtown Toronto looking for new opportunities!</p>
       <p class="text-center">Below you will see everything that I have encountered in my coding career so far and how it would describe my personal skillset.</p>
@@ -34,7 +39,7 @@
       </tr>
       <tr>
         <td>HTML5 & CSS3</td>
-        <td><div class="progress radius round"><span class="meter" style="width: 90%">Best</span></div></td>
+        <td><div class="progress radius round"><span class="meter" style="width: 100%">Best</span></div></td>
       </tr>
       <tr>
         <td>JavaScript</td>
@@ -65,15 +70,23 @@
         <td><div class="progress radius round"><span class="meter" style="width: 80%">Better</span></div></td>
       </tr>
       <tr>
+        <td>TDD</td>
+        <td><div class="progress radius round"><span class="meter" style="width: 60%">Average</span></div></td>
+      </tr>
+      <tr>
         <td>MVC Frameworks</td>
         <td><div class="progress radius round"><span class="meter" style="width: 80%">Better</span></div></td>
+      </tr>
+      <tr>
+        <td>AngularJS</td>
+        <td><div class="progress radius round"><span class="meter" style="width: 60%">Average</span></div></td>
       </tr>
     </tbody>
   </table>
 
   <div class="biography radius div-center">
     <div class="inner round-corners">
-      <p class="text-center"><strong> How to contact me? </strong></p>
+      <p class="text-center"><strong> {{yourName}}, this is my how you could contact me! </strong></p>
       <p class="text-center"><a href="tel:+16474040129"><i class="fa fa-phone fa-2x"> Call me! </i></a></p>
       <p class="text-center"><a href="mailto:stephenycchang@gmail.com"><i class="fa fa-envelope fa-2x"> E-mail Me!</i></a></p>
       <p class="text-center"><a href="http://www.linkedin.com/pub/stephen-chang/39/819/160"><i class="fa fa-linkedin-square fa-2x"> LinkedIn</i></a></p>
