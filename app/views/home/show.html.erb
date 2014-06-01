@@ -1,21 +1,10 @@
-<nav class="top-bar" data-topbar>
-  <ul class="title-area">
-    <li class="name">
-      <h1><%= link_to "Stephen Chang", root_path %></h1>
-    </li>
-  </ul>
-</nav>
-
-
-
 <div class="wrapper">
 
   <div class="biography radius div-center">
     <div class="inner round-corners">
       <div>
-        <input class="round-corners" type="text" ng-model="yourName" placeholder="Please enter your name here to better address you!"
-        <hr>
-        <h1 class="div-center">Hello {{yourName}}!</h1>
+        <input class="round-corners" type="text" ng-model="yourName" placeholder="Please enter your name here to better address you!">
+        <h1 class="div-center" ng-binding>Hello {{yourName}}!</h1>
       </div>
       <p class="text-center">Allow me to introduce myself.</p>
       <p class="text-center">I'm a web developer based in downtown Toronto looking for new opportunities!</p>
