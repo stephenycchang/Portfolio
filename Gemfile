@@ -9,12 +9,15 @@ gem 'jquery-rails'
 gem 'turbolinks'
 gem 'jbuilder', '~> 2.0'
 gem 'sdoc', '~> 0.4.0',          group: :doc
-gem 'spring',        group: :development
+
+group :development do
+  gem 'spring'
+  gem 'better_errors'
+  gem 'binding_of_caller'
+  gem 'quiet_assets'
+end
 
 gem 'foundation-rails'
 gem 'font-awesome-sass'
-gem 'better_errors'
-gem 'binding_of_caller'
-gem 'quiet_assets'
 gem 'nprogress-rails'
 gem 'angularjs-rails'
